@@ -1,0 +1,7 @@
+filegroup(
+    name = "binaries",
+    srcs = glob([
+        "bin/*",
+    ]),
+    visibility = ["//visibility:public"],
+)
